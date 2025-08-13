@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "IK~halF3DqJ#4eH6P_-MR6NAC4LSq0t5ex-GagRqO_8chk02oI17mmY",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "IK~5XMGHTTQ#cY7MGc4ea_8UH6A1wmcJ4k4U6q2FWH5e8qdDRApxkpg",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "Stephen Assistant",  // Bot's display name
